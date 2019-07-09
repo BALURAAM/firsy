@@ -1,19 +1,19 @@
 #include <stdio.h>
 int main()
 {
-    int n, reversedInteger = 0, remainder, originalInteger;
+    int n, rev = 0, rem, ori;
     printf("Enter an integer: ");
     scanf("%d", &n);
     if(n>=0&&n<=1000)
     {
-    originalInteger = n;
+    ori = n;
     while( n!=0 )
     {
-        remainder = n%10;
-        reversedInteger = reversedInteger*10 + remainder;
+        rem = n%10;
+        rev = rev*10 + rem;
         n /= 10;
     }
-    if (originalInteger == reversedInteger)
+    if (ori == rev)
         printf("yes");
     else
         printf("no");
