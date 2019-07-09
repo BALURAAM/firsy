@@ -2,7 +2,7 @@
 int main()
 {
     int n, rev = 0, rem, ori;
-    printf("Enter an integer: ");
+   
     scanf("%d", &n);
     if(n>=0&&n<=1000)
     {
