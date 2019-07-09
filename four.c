@@ -6,6 +6,6 @@ int main()
         if((a>=65&&a<91)||(a>=97&&a<=122))
             printf("Alphabet");
     else
-        printf("Not");
+        printf("No");
  }
 
