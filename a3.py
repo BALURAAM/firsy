@@ -1,2 +1,2 @@
-s=input()
-print("".join(reversed(s)))
+bala=input()
+print("".join(reversed(bala)))
